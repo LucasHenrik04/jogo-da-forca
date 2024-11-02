@@ -3,14 +3,8 @@
 
 int main(){
 	
-	char Computador
-Programação
-Biblioteca
-Algoritmo
-Recursão
-Variável
-Função
-Vetor
-Compilador
-Ponteiro
+	char Computador[20];
+	
+	printf("escreva");
+	scanf("%c", &Computador[20]);
 }
