@@ -1,0 +1,38 @@
+Um projeto simples e colaborativo em C++ pode ser a criação de um sistema de **controle de estoque** para uma pequena loja. Esse projeto permite que vocês pratiquem conceitos básicos da linguagem e trabalhem juntos em diferentes partes do código. Aqui estão algumas sugestões para estruturar o projeto:
+
+### Ideia Geral
+Desenvolver um programa que permita ao usuário:
+1. Adicionar um novo item ao estoque.
+2. Listar todos os itens do estoque.
+3. Buscar um item específico pelo nome.
+4. Atualizar a quantidade de um item.
+5. Remover um item do estoque.
+
+### Divisão de Tarefas
+Para duas pessoas, a divisão pode ficar assim:
+
+#### Pessoa 1: Estrutura dos Dados e Funções Básicas
+- Criar uma **classe `Item`** que representa cada produto no estoque, com atributos como:
+  - `nome`: Nome do item.
+  - `quantidade`: Quantidade disponível no estoque.
+  - `preco`: Preço unitário do item.
+- Desenvolver funções na classe `Item` para definir e exibir esses dados.
+  
+- Criar uma **classe `Estoque`** que vai gerenciar uma lista de objetos `Item`.
+  - Implementar uma função para **adicionar um item** ao estoque.
+  - Implementar uma função para **remover um item** do estoque com base no nome.
+
+#### Pessoa 2: Funcionalidades Adicionais e Interface Simples
+- Continuar implementando funções na classe `Estoque`:
+  - Uma função para **buscar um item** pelo nome e exibir suas informações.
+  - Uma função para **atualizar a quantidade** de um item específico.
+  - Uma função para **listar todos os itens** no estoque, mostrando nome, quantidade e preço.
+
+- Criar uma **interface de menu** no `main`, onde o usuário pode escolher entre as opções de adicionar, listar, buscar, atualizar ou remover itens do estoque. 
+
+### Sugestões de Expansão
+Vocês podem também adicionar funcionalidades extra, como:
+- **Salvar e carregar os dados** de estoque de um arquivo para que o inventário permaneça entre execuções.
+- Implementar uma verificação para **evitar duplicidade** de nomes ao adicionar itens novos.
+
+Esse projeto permite que vocês pratiquem manipulação de classes, listas, entrada e saída de dados, e ainda possibilita uma divisão de trabalho colaborativa.
